@@ -1,0 +1,32 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: linear-gradient(to right, rgb(83, 83, 201), rgb(180, 10, 180), pink);
+    
+}
+h1{
+    color: white;
+    font-family: 'Lucida Sans';
+   
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.App input{
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+p{
+    margin: 10px;
+    font-size: 15px;
+}
+
